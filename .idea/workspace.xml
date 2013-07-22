@@ -4,20 +4,16 @@
     <list default="true" id="b20ee42d-1a08-4bee-9ecf-f4995b8321d1" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/.buildignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/favicon.ico" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/404.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/bootstrap.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/services/goes.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/services/goes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/karma-e2e.conf.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/karma.conf.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/main.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/main.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/navigation.js" />
@@ -26,11 +22,19 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/robots.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/runner.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/services/slides.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/slideshow.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/slideshow.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/slideshow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/timeseries.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/services/variables.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/3529960d.scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/4ac43e1b.modules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/bd6ce9e3.plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/d6a9997a.main.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/app/404.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/app/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/slideshow.html" afterPath="$PROJECT_DIR$/app/views/slideshow.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/timeseries.html" afterPath="$PROJECT_DIR$/app/views/timeseries.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.build" afterPath="$PROJECT_DIR$/.build" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/jquery-migrate.js" afterPath="$PROJECT_DIR$/bower_components/jquery/jquery-migrate.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/jquery-migrate.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/jquery-migrate.min.js" />
@@ -72,7 +76,7 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="326" column="0" selection-start="7416" selection-end="7416" vertical-scroll-proportion="0.6247241">
+            <state line="325" column="32" selection-start="7415" selection-end="7415" vertical-scroll-proportion="2.7740586">
               <folding />
             </state>
           </provider>
@@ -224,17 +228,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.49964714" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.49964714" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.50035286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -330,7 +334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="0" selection-start="7416" selection-end="7416" vertical-scroll-proportion="0.6247241">
+        <state line="325" column="32" selection-start="7415" selection-end="7415" vertical-scroll-proportion="2.7740586">
           <folding />
         </state>
       </provider>
