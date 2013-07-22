@@ -25,10 +25,16 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/slideshow.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/controllers/slideshow.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/spec/services/variables.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/3529960d.scripts.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/4ac43e1b.modules.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/bd6ce9e3.plugins.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/styles/d6a9997a.main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/slideshow.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/timeseries.html" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/app/404.html" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/app/favicon.ico" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
@@ -39,7 +45,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/jquery-migrate.js" afterPath="$PROJECT_DIR$/bower_components/jquery/jquery-migrate.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/jquery-migrate.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/jquery-migrate.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-scenario/jstd-scenario-adapter-config.js" afterPath="$PROJECT_DIR$/bower_components/angular-scenario/jstd-scenario-adapter-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goesweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,7 +81,7 @@
       <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="325" column="32" selection-start="7415" selection-end="7415" vertical-scroll-proportion="2.7740586">
+            <state line="324" column="0" selection-start="7382" selection-end="7382" vertical-scroll-proportion="0.57322174">
               <folding />
             </state>
           </provider>
@@ -91,6 +96,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -334,7 +344,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="325" column="32" selection-start="7415" selection-end="7415" vertical-scroll-proportion="2.7740586">
+        <state line="324" column="0" selection-start="7382" selection-end="7382" vertical-scroll-proportion="0.57322174">
           <folding />
         </state>
       </provider>
