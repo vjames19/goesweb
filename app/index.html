@@ -15,7 +15,11 @@
   <meta name="viewport" content="width=device-width">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-  <link rel="stylesheet" href="styles/7fe34b94.main.css">
+  <!-- build:css({.tmp,app}) styles/main.css -->
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!--<link rel="stylesheet" href="styles/rickshaw.css">-->
+  <!-- endbuild -->
   <script type="text/javascript">
     function onGoogleReady() {
       angular.bootstrap(document.getElementById("map_canvas"), ['goeswebApp']);
@@ -46,7 +50,7 @@
     </ul>
   </div>
 </div>
-<div class="container-fluid" ng-view=""></div>
+<div class="container-fluid" ng-view></div>
 <!--<footer>-->
         <!--<pre>-->
             <!--<p class="text-center">@author: <a href="http://github.com/vjames19">Victor J. Reventos</a></p>-->
@@ -66,7 +70,26 @@
   }(document, 'script'));
 </script>
 
-<script src="scripts/1fdda8e0.plugins.js"></script>
+<!-- build:js scripts/plugins.js -->
+<!--<script src="bower_components/d3/d3.js"></script>-->
+<!--<script src="bower_components/rickshaw/rickshaw.js"></script>-->
+
+
+<script src="bower_components/jquery/jquery.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-affix.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-alert.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-dropdown.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-tooltip.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-modal.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-transition.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-button.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-popover.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-typeahead.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-carousel.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-scrollspy.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-collapse.js"></script>
+<script src="bower_components/bootstrap-sass/js/bootstrap-tab.js"></script>
+<!-- endbuild -->
 
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
@@ -74,9 +97,19 @@
 <script type="text/javascript" src="bower_components/angular-ui-map/src/map.js"></script>
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&sensor=false"></script>
 
-<script src="scripts/860f5e9f.scripts.js"></script>
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+<!-- endbuild -->
 
-<script src="scripts/9ac202bb.modules.js"></script>
+<!-- build:js scripts/modules.js -->
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="scripts/controllers/slideshow.js"></script>
+<script src="scripts/controllers/navigation.js"></script>
+<script src="scripts/services/goes.js"></script>
+<script src="scripts/controllers/timeseries.js"></script>
+<script src="scripts/directives/timeseries.js"></script>
+<!-- endbuild -->
 <!--<script type="text/javascript" src="bower_components/highcharts.com/js/highcharts.src.js"></script>-->
 <script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
 <script type="text/javascript" src="bower_components/highcharts-ng/src/directives/highcharts-ng.js"></script>

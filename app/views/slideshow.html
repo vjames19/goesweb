@@ -8,25 +8,31 @@
 
           <div class="control-group">
             <div class="control">
-              <select ng-model="selectedVariable" ng-options="v for v in variables" required=""></select>
+              <select ng-model="selectedVariable"
+                      ng-options="v for v in variables"
+                      required></select>
             </div>
           </div>
           <div class="control-group">
             <div class="control">
-              <input type="date" required="" ng-model="startDate" placeholder="Start Date">
-              <input type="date" required="" ng-model="endDate" placeholder="End Date"></div>
+              <input type="date" required ng-model="startDate" placeholder="Start Date">
+              <input type="date" required ng-model="endDate" placeholder="End Date"></div>
           </div>
           <button class="btn btn-primary" ng-click="generateSlideshow">Generate Slideshow</button>
         </form>
-        <hr>
+        <hr/>
         <div class="">
           <span class="label label-info" ng-show="form.interval.$error.validator">Interval must
             be between 1 and 10</span>
 
           <div class="input-append">
 
-            <input name="interval" type="number" ng-model="newInterval" ui-validate="'validateInterval($value)'" placeholder="Slideshow interval(s)" min="1" max="10" required="">
-            <button class="btn btn-primary" ng-disabled="form.interval.$error.validator" ng-click="updateInterval()">Update interval
+            <input name="interval" type="number" ng-model="newInterval"
+                   ui-validate="'validateInterval($value)'"
+                   placeholder="Slideshow interval(s)"
+                   min="1" max="10" required/>
+            <button class="btn btn-primary" ng-disabled="form.interval.$error.validator"
+                    ng-click="updateInterval()">Update interval
             </button>
           </div>
         </div>
@@ -42,3 +48,4 @@
     </carousel>
   </div>
 </div>
+

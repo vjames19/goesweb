@@ -1,0 +1,51 @@
+<div class="row">
+  <div class="span8">
+    <div id="map_canvas">
+      <div ui-map="myMap" ui-options="mapOptions" class="map"></div>
+    </div>
+  </div>
+  <div class="span3 chart-panel" id="timeseries">
+    <div class="row">
+      <div class="span12">
+        <highchart id="timeseries-chart" config="chartConfig"></highchart>
+      </div>
+    </div>
+    <div class="row" style="padding-top:10px">
+      <div class="span12">
+
+        <form class="form-horizontal">
+          <select ng-model="selectedVariable"
+                  ng-options="v for v in variables"
+                  required></select>
+          <button class="btn btn-primary" ng-click="generateTimeseries()">Submit</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--<div class="row-fluid">-->
+  <!--<div class="row-fluid">-->
+  <!--<div class="span12 chart-panel" id="timeseries">-->
+  <!--<div id="chart" class="pre"></div>-->
+  <!--<div id="legend_container">-->
+  <!--<div id="smoother" title="Smoothing"></div>-->
+  <!--<div id="legend"></div>-->
+  <!--</div>-->
+  <!--<div id="slider"></div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--<div class="row-fluid">-->
+  <!--<div class="span12">-->
+  <!--<div id="map_canvas">-->
+  <!--<div ui-map="myMap" ui-options="mapOptions" class="map"></div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+  <!--</div>-->
+</div>
+
+
+
+
+
