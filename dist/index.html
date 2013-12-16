@@ -15,7 +15,12 @@
   <meta name="viewport" content="width=device-width">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-  <link rel="stylesheet" href="styles/d6a9997a.main.css">
+  <link rel="stylesheet" href="styles/7fe34b94.main.css">
+  <script type="text/javascript">
+    function onGoogleReady() {
+      angular.bootstrap(document.getElementById("map_canvas"), ['goeswebApp']);
+    }
+  </script>
 </head>
 <body ng-app="goeswebApp">
 <!--[if lt IE 7]>
@@ -35,27 +40,19 @@
   <div class="navbar-inner">
     <a class="brand" href="#">GOES-PRWEB</a>
     <ul class="nav">
-      <li ng-repeat="link in nav.links" ng-class="{active: $index == nav.activeLinkIndex}">
-        <a ng-href="{{ link.fragment }}" ng-click="nav.activeLinkIndex = $index">
-          {{ link.text}}</a>
+      <li ng-repeat="link in nav.links" ng-class="{active: isActive(link.fragment)}">
+        <a ng-href="{{ link.fragment }}">{{ link.text }}</a>
       </li>
     </ul>
   </div>
 </div>
-
 <div class="container-fluid" ng-view=""></div>
-
-
-<footer>
-  <div>
-        <pre>
-            <p class="text-center">@author: <a href="http://github.com/vjames19">Victor J. Reventos</a></p>
-            <p class="text-center"><a href="http://pragwater.com/">GOES-PRWEB Blog</a> Author: Eric Harmsen</p>
-        </pre>
-  </div>
-</footer>
-
-
+<!--<footer>-->
+        <!--<pre>-->
+            <!--<p class="text-center">@author: <a href="http://github.com/vjames19">Victor J. Reventos</a></p>-->
+            <!--<p class="text-center"><a href="http://pragwater.com/">GOES-PRWEB Blog</a> Author: Eric Harmsen</p>-->
+        <!--</pre>-->
+<!--</footer>-->
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
   var _gaq = [
@@ -69,13 +66,19 @@
   }(document, 'script'));
 </script>
 
+<script src="scripts/1fdda8e0.plugins.js"></script>
+
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-utils/modules/event/event.js"></script>
+<script type="text/javascript" src="bower_components/angular-ui-map/src/map.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&sensor=false"></script>
 
-<script src="scripts/3529960d.scripts.js"></script>
+<script src="scripts/860f5e9f.scripts.js"></script>
 
-<script src="scripts/bd6ce9e3.plugins.js"></script>
-
-<script src="scripts/93f17ca4.modules.js"></script>
+<script src="scripts/9ac202bb.modules.js"></script>
+<!--<script type="text/javascript" src="bower_components/highcharts.com/js/highcharts.src.js"></script>-->
+<script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+<script type="text/javascript" src="bower_components/highcharts-ng/src/directives/highcharts-ng.js"></script>
 </body>
 </html>
