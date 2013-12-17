@@ -87,16 +87,45 @@ angular.module('goeswebApp')
 
           $scope.generateTimeseries = function() {
             console.log('calling')
-            $scope.chartConfig.title.text = $scope.selectedVariable;
-            $scope.chartConfig.series.pop();
-            plot.data  = goesService.getTimeseries().data;
-            $scope.chartConfig.series.push(plot);
+            $scope.toggleLoading();
+            setTimeout(function() {
+              $scope.chartConfig.title.text = $scope.selectedVariable;
+              $scope.chartConfig.series.pop();
+              plot.data  = goesService.getTimeseries().data;
+              $scope.chartConfig.series.push(plot);
+              $scope.toggleLoading();
+
+            },0);
+
           };
+          console.log($scope);
+
+//          var marker = new google.maps.Marker({
+//            position: $scope.myMap.getCenter(),
+//            map: $scope.myMap,
+//            title: 'Hello World!'
+//          });
+
         },
-        link: function(scope, element) {
+        link: function($scope, element) {
           var height = $(window).innerHeight() - $(".navbar").innerHeight() - 20;
           var el = $(element);
           el.find('.map').innerHeight(height);
+
+          var marker = new google.maps.Marker({
+            position: $scope.myMap.getCenter(),
+            map: $scope.myMap,
+            title: 'Hello World!'
+          });
+
+          $scope.moveMarker = function(event, params) {
+            console.log("moving marker", arguments);
+            marker.setPosition(params[0].latLng);
+            $scope.generateTimeseries();
+
+          }
+
+          console.log("link", $scope.myMap);
         }
       };
     });

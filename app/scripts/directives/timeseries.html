@@ -1,7 +1,8 @@
 <div class="row">
   <div class="span8">
     <div id="map_canvas">
-      <div ui-map="myMap" ui-options="mapOptions" class="map"></div>
+      <div ui-map="myMap" ui-options="mapOptions" class="map"
+           ui-event="{'map-click': 'moveMarker($event, $params)'}"></div>
     </div>
   </div>
   <div class="span3 chart-panel" id="timeseries">
